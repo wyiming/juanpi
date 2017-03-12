@@ -1,0 +1,69 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;}
+html,body{width:100%;height:100%;font-size: .7rem;font-family: "微软雅黑";}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1474712331_8632944.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1474712331_8632944.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1474712331_8632944.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1474712331_8632944.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1474712331_8632944.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+.all{height:91%;overflow: scroll;position: relative;}
+.fontStyle{font-family: 'iconfont';}  
+#return{display: block;position: absolute;top:0.8rem;left: 1rem;z-index: 2;width: 1.8rem;height:1.8rem;background: rgba(98,98,98,0.7);border-radius: 50%;color:white;line-height: 1.8rem;text-align: center;font-size: 1rem;}                 
+#shopCar_swipe{width: 16rem;}
+#shopCar_swipe .swiper-wrapper{font-size: 0;}
+#shopCar_swipe img{width:16rem;}
+#shopCar_swipe .swiper-pagination-bullet{background:grey;width:0.3rem;height:0.3rem;}
+.sale{padding: 0 0.5rem;}
+.price h4{color:#575757;font-size: 0.8rem;font-weight: normal;}
+.price{border-bottom:1px solid #f3f3f3;padding-bottom:0.5rem;}
+.price p{margin-top:0.8rem;}
+.price p:nth-child(2){margin-left:0.5rem;}
+.price p:nth-child(2) span:first-child{color:#8439ee;font-size: 1rem;}
+.price p:nth-child(2) span:nth-child(2){color:#adadad;font-size: 0.6rem;margin-left:1rem;text-decoration: line-through;}
+.price p:nth-child(2) span:nth-child(3){display:inline-block;background:#959595;width:1.5rem;height:1rem;text-align:center;color:white;font-size: 0.6rem;margin-left:0.5rem;}
+.countDwon span{color:#a6a6a6;font-size: 0.8rem;}
+.countDwon p{color:#a6a6a6;font-size: 0.5rem;display: inline-block;}
+.address{height: 3rem;line-height: 3rem;border-bottom:1px solid #f3f3f3;}
+.address img{width:1.5rem;vertical-align: middle;}
+.address p{display: inline-block;color:#4e4e4e;}
+.hotSale{color:#858585;height:3.5rem;padding-top: 1rem;border-bottom:1px solid #f3f3f3;}
+.hotSale p:first-child{font-size: 0.5rem;}
+.hotSale p:first-child span{font-size: 0.8rem;}
+.hotSale p:nth-child(2){text-indent: 2rem;font-size: 0.5rem;}
+.hotSale p:nth-child(2) span{border:1px solid #de5b6b;color:#de5b6b;font-size: 0.7rem;}
+.list{display: flex;width: 100%;justify-content: space-between;}
+.list li{font-size: 0.5rem;height:2rem;line-height: 2rem;color:#474747;}
+.list li img{vertical-align: middle;width:0.6rem;}
+.quality{width:16rem;height:2rem;background: #f7f7f7;padding: 0.5rem 0 0.5rem 0;}
+.quality p{width: 16rem;height:1.6rem;background: white;line-height: 1.6rem;text-align: center;color:#ff4041;font-size: 0.7rem;}
+.quality p span{display:inline-block;width:0.3rem;height: 0.3rem;background:#ff4041;transform: rotate(45deg);vertical-align: middle;margin:0 0.5rem;}
+.bg{background: #f7f7f7;padding-bottom:0.5rem; }
+.parameter{height:10rem;padding: 0.1px;background: white;}
+.parameter h3{margin:0.6rem 0 0.6rem 0.5rem;color:#4d4d4d;font-weight: normal;}
+.parameter ul{margin-left:0.5rem;}
+.parameter ul li{height:1.2rem;}
+.parameter ul li p{display: inline-block;color:#494949;}
+.parameter ul li p:first-child{width:4rem;color:#8f8f8f;}
+.parameter .btn{display: inline-block;width: 6.5rem;height: 1.8rem;border:1px solid #4d4d4d;margin-left:0.8rem;line-height: 1.8rem;text-align: center;color:#494949;margin-top:0.5rem;}
+.goodImg img{width: 16rem;display: block;}
+.hint{width:16rem;text-align: center;color:#6b6b6b;padding:0.5rem 0;font-size: 0.6rem;background: #f7f7f7;}
+footer{padding: 0 0.5rem;}
+footer ul{width:15rem;display: flex;border-bottom: 1px solid #f3f3f3;padding: 0.5rem 0;}
+footer ul li{flex:auto;text-align: center;font-size: 0.5rem;border-right:1px solid #f3f3f3;color:#6a6a6a;}
+footer ul li:last-child{border:none;}
+footer p{width:15rem;text-align: center;margin:0.5rem 0;transform: scale(0.7);color:#bebebe;}
+.fixed{position: fixed;bottom: 0;left:0;height: 9%;width: 16rem;}
+.fixed a{display: inline-block;float: left;text-align: center;color:#767676;height:100%;padding-top: 0.4rem;}
+.collect,.car{width:2.5rem;border-top:1px solid #e8e8e8;}
+.collect{border-right:1px solid #e8e8e8;}
+.fixed .join{width:11rem;font-size: 1rem;background: #ff464e;text-align: center;color:white;}
+.car p:first-child{font-size: 1rem;}
+.car p:nth-child(2){transform: scale(0.8);font-size: 0.5rem;}
+.collect p:first-child{font-size: 1rem;}
+.collect p:nth-child(2){transform: scale(0.8);font-size: 0.5rem;}

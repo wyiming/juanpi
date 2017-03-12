@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索</title>
+	<script src="../lib/jquery-2.1.1.js"></script>
+	<script src="../lib/angular.min.js"></script>
+	<script src="../lib/angular.ui-router.js"></script>
+	<script src="../js/controller/find.js"></script>
+	<link rel="stylesheet" href="../css/find.css">
+</head>
+<body ng-app="find_myApp" ng-controller="mycontrol">
+	<div id="find_top">
+		<a href="../index.html" id="find_reutrn"><span></span></a>
+		<p>全部分类</p>
+	</div>
+
+
+
+	<div id="find_search">
+		<input type="text" placeholder="搜索商品" ng-model="test1">
+		<a href="find_1.html"><span></span></a>
+	</div>
+
+
+	<div id="find_aside">
+		<ul>
+			<li><a ui-sref="find1">百货</a></li>
+			<li><a ui-sref="find2">咖啡</a></li>
+			<li><a ui-sref="find3">好咖啡</a></li>
+			<li><a ui-sref="find4">女装</a></li>
+			<li><a ui-sref="find5">日用</a></li>
+			<li><a ui-sref="find6">服装</a></li>
+			<li><a ui-sref="find7">鞋靴</a></li>
+			<li><a ui-sref="find8">凉鞋</a></li>
+			<li><a ui-sref="find9">卡通</a></li>
+			<li><a ui-sref="find10">运动户外</a></li>
+			<li><a ui-sref="find11">美食</a></li>
+			<li><a ui-sref="find12">车品文娱</a></li>
+		</ul>
+	</div>
+	<div ui-view=""  id="find_aside_box"></div>
+</body>
+</html>

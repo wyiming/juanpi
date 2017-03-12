@@ -1,0 +1,122 @@
+<div class="globalBuy">
+<div class="family_box_header">
+    <a href="views/find.html"></a>
+    全球购  
+</div>
+<div class="swiper-container" id="global_banner">
+   <div class="swiper-wrapper">
+       <div class="swiper-slide" ng-repeat="x in dataBanner"><img ng-src="{{x.pic}}"/></div>
+   </div>
+   <div class="swiper-pagination">
+   </div>
+</div>
+<div class="global_ad">
+    <ul>
+       <li ng-repeat="x in dataAd">
+           <img ng-src="{{x.pic}}">
+       </li>
+    </ul>
+</div>
+<div class="global_list">
+  
+  <div class="bigImg">
+  <a href="views/cosmetic.html">
+  <img ng-src="http://s2.juancdn.com/bao/160803/6/0/57a1b749151ad1152f8b45d9_750x360.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+  </a>
+  </div>
+  
+  <div class="showList">
+  <ul class="show">
+
+     <li ng-repeat="x in dataList">
+        <a href="{{x.my_url}}">
+        <img  ng-src="{{x.pic_url}}">
+        <p> <span>{{'￥' + x.cprice}}</span><span>{{'￥' + x.oprice}}</span></p>
+        <p>{{x.title}}</p>
+        </a>
+      </li>
+  </ul>
+  </div>
+  <div class="bigImg">
+  <a href="views/coffee.html">
+  <img ng-src="http://s2.juancdn.com/bao/160825/a/8/57bedff8151ad14d2f8b4599_750x360.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+  </a>
+  </div>
+  <div class="showList">
+  <ul class="show">
+     <li ng-repeat="x in dataList_2">
+        <img  ng-src="{{x.pic_url}}">
+        <p> <span>{{'￥' + x.cprice}}</span><span>{{'￥' + x.oprice}}</span></p>
+        <p>{{x.title}}</p>
+      </li>
+  </ul>
+  </div>
+  <div class="bigImg">
+  <a href="views/cosmetic.html">
+  <img ng-src="http://s2.juancdn.com/bao/160901/8/4/57c7f06f151ad1754d8b45a1_750x360.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+  </a>
+  </div>
+  <div class="showList">
+  <ul class="show">
+     <li ng-repeat="x in dataList_3">
+        <img  ng-src="{{x.pic_url}}">
+        <p> <span>{{'￥' + x.cprice}}</span><span>{{'￥' + x.oprice}}</span></p>
+        <p>{{x.title}}</p>
+      </li>
+  </ul>
+  </div>
+</div>
+<div class="newGoods">
+     <ul>
+        <a href="views/cosmetic.html">
+        <li>
+          <div class="brand_pic">
+          <img ng-src="http://s2.juancdn.com/bao/160819/f/a/57b66795151ad1827b8b45ef_750x290.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+          </div>
+          <div class="new_price">
+          <img ng-src="http://s.juancdn.com/seller/images/icons/14.gif?ts=0fcbfe0cabd81fed_1474554309" alt="">
+          <p><span>低至55元</span><span>大麦若叶青汁粉(30袋)</span><span>上新</span></p>
+
+          </div>
+        </li>
+        </a>
+         <a href="views/cosmetic.html">
+        <li>
+          <div class="brand_pic">
+          <img ng-src="http://s2.juancdn.com/bao/160819/f/a/57b66795151ad1827b8b45ef_750x290.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+          </div>
+          <div class="new_price">
+          <img ng-src="http://s.juancdn.com/seller/images/icons/14.gif?ts=0fcbfe0cabd81fed_1474554309" alt="">
+          <p><span>低至55元</span><span>大麦若叶青汁粉(30袋)</span><span>上新</span></p>
+
+          </div>
+        </li>
+        </a>
+         <a href="views/cosmetic.html">
+        <li>
+          <div class="brand_pic">
+          <img ng-src="http://s2.juancdn.com/bao/160819/f/a/57b66795151ad1827b8b45ef_750x290.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+          </div>
+          <div class="new_price">
+          <img ng-src="http://s.juancdn.com/seller/images/icons/14.gif?ts=0fcbfe0cabd81fed_1474554309" alt="">
+          <p><span>低至55元</span><span>大麦若叶青汁粉(30袋)</span><span>上新</span></p>
+
+          </div>
+        </li>
+        </a>
+         <a href="views/cosmetic.html">
+        <li>
+          <div class="brand_pic">
+          <img ng-src="http://s2.juancdn.com/bao/160819/f/a/57b66795151ad1827b8b45ef_750x290.jpg?iopcmd=convert&Q=88&dst=jpg" alt="">
+          </div>
+          <div class="new_price">
+          <img ng-src="http://s.juancdn.com/seller/images/icons/14.gif?ts=0fcbfe0cabd81fed_1474554309" alt="">
+          <p><span>低至55元</span><span>大麦若叶青汁粉(30袋)</span><span>上新</span></p>
+
+          </div>
+        </li>
+        </a>
+     </ul>
+</div>
+
+</div>

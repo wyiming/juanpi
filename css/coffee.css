@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 0.6rem;
+	color: #333;
+}
+ul,li{
+	list-style: none;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+img{
+	border:none;
+}
+.go-app-new{
+	width: 16rem;
+	height: 2.5rem;
+	position: relative;
+}
+.go-app-new img{
+	width: 16rem;
+	height: 2.5rem;
+}
+.close{
+	display: inline-block;
+	position: absolute;
+	width: 1.25rem;
+	height: 1.25rem;
+	left: 0;
+	top: 0.65rem;
+	cursor: pointer;
+}
+.top{
+	height: 2.2rem;
+	text-align: center;
+	line-height: 2.2rem;
+	position: relative;
+	font-size: 0.9rem;
+}
+.btn-back,.btn-menu{
+	position: absolute;
+	width: 1.5rem;
+	height: 1.5rem;
+	top: 0.35rem;
+}
+.btn-back{
+	left: 1rem;
+}
+.btn-menu{
+	right: 1rem;
+}
+.bar{
+	position: relative;
+	width: 16rem;
+}
+.bar img{
+	width: 16rem;
+}
+.brand-collect{
+	width: 3.4rem;
+	height: 1.4rem;
+	position: absolute;
+	bottom: 0.5rem;
+	right: 0.5rem;
+	background: rgba(255,255,255,0.8);
+	color: #4a4a4a;
+	font-size: 0.6rem;
+	line-height: 1.4rem;
+	border-radius: 10px;
+	text-align: center;
+}
+.brand-collect img{
+	width: 1rem;
+	height: 1rem;
+	margin-left: 0.2rem;
+	vertical-align: middle;
+}
+.global-title{
+	padding: 0 0.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.6rem;
+	color: #9b9b9b;
+}
+.global-title img{
+	width: 1.25rem;
+	height: 0.75rem;
+	vertical-align: middle;
+}
+.global-desc p{
+	font-size: 0.6rem;
+	padding: 0 0.5rem;
+	line-height: 0.9rem;
+}
+.activityinfo{
+	padding: 0.5rem 0.5rem;
+	border-bottom: 1px solid #e7e7e7;
+	border-top: 1px solid #e7e7e7;
+}
+.activityinfo span{
+	padding: 0 0.2rem;
+	border:1px solid #ff464e;
+	color: #ff464e;
+	margin-right: 0.7rem;
+}
+.brand-sort{
+	width: 100%;
+	font-size: ;
+	height: 2rem;
+	border-bottom: 1px solid #e7e7e7;
+	padding-top: 0.3rem;
+	/*clear: both;*/
+}
+.brand-sort ul{
+	width: 100%;
+	height: 1.4rem;
+	padding: 0;
+}
+.brand-sort ul li{
+	width: 3rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #e7e7e7;
+}
+#stock-active{
+	width: 5rem;
+	border:none;
+}
+.price-desc img{
+	width:0.4975rem;
+	height: 0.8rem;
+	vertical-align: middle;
+	margin-left: 0.3rem;
+}
+#stock-active img{
+	width:0.6rem;
+	height: 0.7rem;
+	vertical-align: middle;
+	margin-left: 0.3rem;
+}
+.goods-list{
+	width: 16rem;
+	clear: both;
+}
+.goods-list ul{
+	width: 16rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background:#e7e7e7;
+}
+.goods-list ul li{
+	width: 7.9rem;
+	height: 10.85rem;
+}
+.goods-list ul li img{
+	width: 7.9rem;
+
+}
+.price-desc{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	color: #bbb;
+	padding: 0 0.3rem;
+}
+.price-desc span:first-child{
+	color: #60e;
+	font-size: 0.8rem;
+	text-align: left;
+
+}
+.price-desc span:nth-child(2){
+	
+	font-size: 0.5rem;
+	text-decoration: line-through;
+	text-align: left;
+}
+.price-desc span:nth-child(3){
+	float: right;
+}
+/*.cof-desc span:nth-child(2){
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	overflow: hidden;
+	width: 1.5rem;
+}*/
+.cof-desc{
+	width: 7.9rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 0 0.2rem;
+}
+.cof-desc span:nth-child(2){
+	
+}
+.footer{
+	padding-top:1rem;
+}
+.footer a{
+	display: inline-block;
+	width: 5.3rem;
+	border-right: 1px solid #e7e7e7;
+	height: 0.6rem;
+	font-size: 0.6rem;
+	text-align: center;
+	color: gray;
+}
+.footer p{
+	width: 16rem;
+	text-align: center;
+	font-size: 0.5rem;
+	line-height: 3.3rem;
+	color: #bbb;
+}
+
+.back-top{
+	width: 2rem;
+	height: 2rem;
+	position: fixed;
+	bottom: 1rem;
+	right: .8rem;
+	border-radius: 50%;
+	background: #f2f2f2;
+	z-index: 1;
+	display: none;
+}
+.back-top img{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-left: 0.4rem;
+	margin-top: 0.4rem;
+}
+.short-cut{
+	width: 2rem;
+	height: 2rem;
+	position: fixed;
+	bottom: 1rem;
+	left: .8rem;
+	background: #333;
+	z-index: 1;
+	border-radius: 5px;
+}
+.short-cut img{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-left: 0.4rem;
+	margin-top: 0.4rem;
+}

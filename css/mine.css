@@ -1,0 +1,519 @@
+#box{
+	width: 16rem;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#box-container{
+	width:32rem;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.user-center{
+	overflow-y: scroll;
+	padding-bottom: 3.5rem;
+	box-sizing: border-box;
+	height: 100%;
+	width: 16rem;
+	float: left;
+}
+.head{
+	width: 16rem;
+	height: 6.625rem;
+	background: linear-gradient(150deg,#ff5a61 40%,#fd631c);
+}
+.user-top{
+	height: 2.2rem;
+	width: 16rem;
+	position: relative;
+}
+.user-top p{
+	text-align: center;
+	line-height: 2.2rem;
+	color: #fff;
+	font-size: 1rem;
+}
+.user-top img{
+	width: 1.375rem;
+	height: 1.375rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+}
+.user-login{
+	width: 16rem;
+	height: 3.9rem;
+	padding-right: 2.5rem;
+	padding-left: 2.5rem;
+	color: #fff;
+}
+.user-login a{
+	display: inline-block;
+	line-height: 3.9rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	width: 5rem;
+}
+.user-login i{
+	font-style: normal;
+	color: #fff;
+}
+.myorders{
+	height: 2.4rem;
+}
+.myorders span{
+	display: inline-block;
+	width: 7.5rem;
+	text-align: left;
+	line-height: 2.4rem;
+	font-size: 0.75rem;
+	color: #4a4a4a;
+	text-indent: 0.5rem;
+}
+.myorders span:nth-child(2){
+	font-size: 0.6rem;
+}
+.myorders .all-orders{
+	text-align: right;
+	color: #666;
+}
+.myorders img{
+	vertical-align: middle;
+	width: 1rem;
+	height: 1rem;
+}
+.user-item{
+	width: 16rem;
+	height: 3.275rem;
+}
+.user-item a{
+	display: inline-block;
+	float: left;
+	width:4rem;
+	color: #333;
+}
+.user-item a span{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.user-item a p{
+	text-align: center;
+	font-size: 0.675rem;
+	line-height: 1.1rem;
+}
+.x-line{
+	height: 10px;
+	width: 16rem;
+	background: #F7F7F7;
+}
+.user-list{
+	width: 16rem;
+}
+.user-list li{
+	height: 2.4rem;
+	line-height: 2.4rem;
+}
+.user-list li a{
+	display: inline-block;
+	width: 16rem;
+	color: #333;
+	font-size: 0.825rem;
+}
+.footer-nav{
+	width: 16rem;
+	height: 1.9rem;
+}
+.footer-nav a{
+	display: inline-block;
+	width: 5.2rem;
+	float: left;
+	height: 0.625rem;
+	vertical-align: middle;
+	text-align: center;
+	color: #666;
+	border-right: 1px solid #e7e7e7;
+	margin-top: 0.6rem;
+}
+.pc-edition{
+	border:none;
+}
+.cut-line{
+	height: 1px ;
+	border-bottom: 1px solid #e7e7e7;
+	width: 14.4rem;
+	margin:0 auto 1rem;
+}
+.footer-copyright{
+	font-size: 0.6rem;
+	color: #bbb;
+	text-align: center;
+}
+
+/*--------------mine my-orders 矢量图标------------------*/
+@font-face {
+  font-family: 'iconfont-useritem';
+  src: url('//at.alicdn.com/t/font_1474522890_1662602.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1474522890_1662602.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1474522890_1662602.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1474522890_1662602.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1474522890_1662602.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-useritem{
+	font-family: "iconfont-useritem";
+	display: inline-block;
+	font-style: normal;
+}
+      /*--------user-list 图标---------*/
+@font-face {
+  font-family: 'iconfont-userlist';
+  src: url('//at.alicdn.com/t/font_1474525998_7238371.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1474525998_7238371.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1474525998_7238371.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1474525998_7238371.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1474525998_7238371.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont-userlist{
+	font-family: "iconfont-userlist";
+	display: inline-block;
+	font-style: normal;
+	width: 2.5rem;
+	text-align: center;
+	font-weight: bold;
+}                    
+
+/*--------------------登录页面------------------*/
+.page-container{
+	width:16rem;
+	height: 100%;
+	overflow-y: scroll;
+	padding-bottom: 3.5rem;
+	float: left;
+	position: relative;
+}
+.login-page{
+	width: 16rem;
+	height: 100%;
+	overflow-y: scroll;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	z-index: 1;
+}
+.lp-top{
+	height: 2.2rem;
+	width: 16rem;
+	position: relative;
+	background: linear-gradient(150deg,#ff5a61 40%,#fd631c);
+}
+.lp-top p{
+	text-align: center;
+	line-height: 2.2rem;
+	color: #fff;
+	font-size: 1rem;
+}
+.lp-top img{
+	width: 1.375rem;
+	height: 1.375rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+}
+
+.wap-login{
+	padding: 0 0.5rem;
+}
+.login-switch{
+	height: 2.2rem;
+	padding-left: 1rem;
+	margin-bottom: 1px;
+}
+.login-switch a{
+	display: inline-block;
+	width: 6.5rem;
+	text-align: center;
+	line-height: 2.2rem;
+	color: #A0A0A0;
+	font-size: 0.7rem;
+}
+.j-l{
+	color:#ff464e;
+	border-bottom: 1px solid #ff464e;
+}
+
+.code-container{
+	position: relative;
+	width: 15rem;
+	height: 4.8rem;
+}
+.code-login{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 15rem;
+	height: 4.81rem;
+}
+.tele-login{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 15rem;
+	height: 4.81rem;
+}
+.btn-re{
+	width: 15rem;
+	height: 4.81rem;
+	position: relative;
+}
+.get-code{
+	height: 2.4rem;
+	display: inline-block;
+	font-size: 0.7rem;
+	position: absolute;
+	bottom:0;
+	right: 0;
+	line-height: 2.4rem;
+}
+.get-code a{
+	color: #9b9b9b;
+}
+.code-login input,.tele-login input{
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #e7e7e7;
+	height: 2.4rem;
+	width: 15rem;
+	font-size: 0.7rem;
+}
+#pd-rt{
+	padding-right:3rem; 
+}
+
+.login-btn-container{
+	margin-top: 1rem;
+}
+.login-btn,.next-step{
+	display: inline-block;
+	width: 15rem;
+	text-align: center;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	background: #dbdbdb;
+	color: #fff;
+	margin-top: 1rem;
+	clear: both;
+}
+.other-action{
+	width: 15rem;
+	height: 2rem;
+	padding-top: 0.625rem;
+	color: #9b9b9b;
+	font-size: 0.75rem;
+	clear: both;
+	margin-bottom: 1.5rem;
+}
+.ck{
+	width: 0;height: 0;
+}
+.before{
+	display: inline-block;
+	width: 0.71rem;
+	height: 0.71rem;
+	position: relative;
+	border:1px solid gray;
+}
+.lab-on{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0.71rem;
+	height: 0.71rem;
+}
+.ck:checked+i{
+	border:1px solid transparent;
+	background: #ff464e;
+}
+.fre-reg{
+	float: right;
+}
+.third-f{
+	border-bottom: 1px solid #e7e7e7;
+}
+.third-f h3{
+	font-weight: normal;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #9b9b9b;
+}
+.third-app img{
+	width: 2.4rem;
+	height: 2.4rem;
+	margin:1rem 1.3rem;
+}
+
+.protection li{
+	height: 2rem;
+	width: 4.5rem;
+	float: left;
+	font-size: 0.6rem;
+	color: #c2c2c2;
+	line-height: 2rem;
+}
+.protection li:nth-child(2){
+	width: 6rem;
+}
+.protection li img{
+	width: 1.1rem;
+	height: 1.1rem;
+	margin-top: .5rem;
+	float: left;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+}
+/*---------注册页面--------*/
+.reg-page{
+	height: 100%;
+	width: 16rem;
+	position: absolute;
+	left: 0;
+	top: 0;	
+	z-index: 1;
+	background-color: #fff;
+}
+.reg-top{
+	height: 2.2rem;
+	border-bottom: 1px solid #e7e7e7;
+	text-align: center;
+	position: relative;
+	line-height: 2.2rem;
+
+}
+.reg-top p{
+	font-size: 1rem;
+}
+.reg-top img{
+	width: 1.375rem;
+	height: 1.375rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+}
+.reg-notice{
+	text-align: center;
+	color: #9b9b9b;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	font-size: 0.6rem;
+}
+#mob-text{
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #e7e7e7;
+	height: 2.4rem;
+	width: 15rem;
+	font-size: 0.7rem;
+}
+.mob-code-box{
+	height: 2.41rem;
+	width: 15rem;
+	border-bottom: 1px solid #e7e7e7;
+	position: relative;
+}
+#mob-code{
+	border:none;
+	outline: none;
+	height: 2.4rem;
+	width: 10rem;
+	font-size: 0.7rem;
+}
+.get-mob-code{
+	height: 2.4rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 2.4rem;
+	color: #9b9b9b;
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+/*-----------------我的钱包------------------*/
+.mywallet{
+	width: 16rem;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 2;
+	padding: 2.2rem 1rem 0;
+	display: none;
+}
+.wallet-box{
+	width: 14rem;
+	height: 14rem;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+}
+.juanpi-icon{
+	height: 4.8rem;
+	border-bottom: 0.1rem dashed #FF464E;
+	margin-bottom: 3px;
+}
+.juanpi-icon img{
+	width: 2rem;
+	height: 2rem;
+	vertical-align: middle;
+	margin:1.4rem 0 0 6rem; 
+}
+.wallet-desc{
+	height: 4.8rem;
+	text-align: center;
+	padding: 0 1.5rem;
+	font-size: .7rem;
+	color: #333;
+	line-height: 1.8rem;
+}
+.go-down{
+	height: 4.8rem;
+	background:#F2F2F2;
+	width: 14rem;
+}
+.go-down span{
+	display: inline-block;
+	width: 12rem;
+	height: 1.5rem;
+	color: #fff;
+	text-align: center;
+	background: #35C537;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+	border-radius: 10px;
+	box-shadow: 3px 5px  3px 5px #35C537;
+	text-align: center;
+	line-height: 2rem;
+}
+.colse-mywallet{
+	position: absolute;
+	right: 0;
+	width: 1.2rem;
+	height: 1.2rem;
+	top: 0;
+	background: url(../icon/x.png) no-repeat left center;
+	background-size: 100%;
+	z-index: 4;
+}
+
+/*注册正则*/
+.reg-state,.code-state{
+	display:block;
+	height: 1rem;
+	line-height: 1rem;
+	width: 15rem;
+	font-size: 0.5rem;
+}

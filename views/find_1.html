@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索商品</title>
+	<link rel="stylesheet" href="../css/find_1.css">
+	<script src="../lib/jquery-2.1.1.js"></script>
+	<script src="../lib/angular.min.js"></script>
+	<script src="../lib/lazyload.js"></script>
+	<script src="../js/controller/find_1.js"></script>
+</head>
+<body ng-app="find_myApp" ng-controller="find_control">
+	
+	<div id="find_search">
+		<a href="javascript:history.back()"><b></b></a>
+		<input type="text" placeholder="搜索商品" ng-model = "test0">
+		<span></span>
+		<p>搜索</p>
+	</div>
+
+
+	<div id="find_shuaixuan">
+		<div id="find_moren_a">默认</div>
+		<div id="find_shuaixuan_a">
+			价格
+			<span></span>
+		</div>
+		<div id="find_xiaoliang_a">销量</div>
+	</div>
+
+	<div id="find_imgboxs" >
+		<ul>
+			<li ng-repeat="x in data | filter:test0">
+				<div id="lazybox">
+					<a href="find_more.html"><img ng-src="{{   x.pic_url  }}" alt="" class="lazy"></a>
+					<div id="find_imgboxs_div">
+						￥<span>{{  x.cprice   }}</span>
+						￥<span>{{  x.oprice   }}</span>
+						<span>{{  x.time_left  }}</span>
+					</div>
+					<p>{{  x.title  }}</p>
+				</div>
+			</li>
+		</ul>
+
+	</div>
+	<div id="find_content">
+		<div><p>已经到最底了</p></div>
+		<div>
+			<span><a href="../index.html">返回首页</a></span>
+			<span><a href="../index.html">客户端</a></span>
+			<span><a href="../index.html">电脑端</a></span>
+		</div>
+		<div><p>copyright &copy;武汉奇米科技网络有限公司</p></div>
+
+	</div>
+</body>
+</html>

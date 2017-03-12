@@ -1,0 +1,49 @@
+.shop-car{
+	width: 16rem;
+}
+.car-top{
+	width: 16rem;
+	height: 2.2rem;
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 0.9rem;
+	text-align: center;
+	line-height: 2.2rem;
+	color: #333;
+}
+.empty{
+	padding-top: 2rem;
+	width:16rem;
+	text-align: center;
+}
+
+.empty img{
+	width: 5.65rem;
+	height: 4.8rem;
+	margin-bottom: 1rem;
+}
+.empty p{
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	color: #4a4a4a;
+}
+.empty span{
+	font-size: 0.61rem;
+	color: #9b9b9b;
+	line-height: 1.2rem;
+}
+.go-buy{
+	width: 16rem;
+	text-align: center;
+}
+.te-buy{
+	display: inline-block;
+	width: 7rem;
+	height: 2rem;
+	border: 1px solid #ff464e;
+	text-align: center;
+	line-height: 2rem;
+	color: #ff464e;
+	font-size: 0.75rem;
+	margin-left: 4rem;
+	margin-top: 1rem;
+}

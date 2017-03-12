@@ -1,0 +1,41 @@
+
+.family_box{width:100%;height: 100%;overflow: hidden;overflow: auto;font-family: "微软雅黑","microsoft yahei";}
+.family_box_header{width: 100%;height: 2.2rem;line-height: 2.2rem;border: ; text-align: center;position: relative;font-size: 0.9rem;}
+.family_box_header a{display:inline-block;width:1.2rem;height: 1.2rem;background: url(../img/btn-sign.png) no-repeat left center;background-size: 100%;position: absolute;right: 0.6rem;top:0.6rem;}
+.family_box_nav{width: 100%;font-size: 0;overflow-x: scroll;border-top: 0.04rem solid #E2E2E3;}
+.family_box_nav ul{width: 120%;height: 1.8rem;line-height: 1.8rem;font-size: 0;}
+.family_box_nav li{float: left;width:calc(100%/6);height: 100%;text-align: center;font-size: 0.7rem;}
+.family_box_nav li a{color: #4A4A4A;display:block;width: 80%;height100%;margin: auto;}
+
+.family_content{width: 100%;}
+.family_banner{width: 100%;height:7.5rem;font-size: 0;}
+.family_banner img{width: 100%;height: 7.5rem;}
+.swiper-pagination li{width: 0.3rem;height: 0.3rem;background: white;}
+
+.family_banner2{width:100%;height: 9.75rem;clear: both;display: flex;justify-content: center;font-size: 0;}
+.family_banner2_left{width: 50%;height: 100%;}
+.family_banner2_left img{width: 100%;height: 100%;}
+.family_banner2_right{width: 50%;height: 4.875rem;}
+.family_banner2_right img{width: 100%;height: 4.875rem;border: none;}
+.family_banner3{width: 100%;height:7.7rem;}
+.family_banner3 img{width: 100%;height: 7.7rem;}
+.family_banner4{width: 100%;height:1.5rem;}
+.family_banner4 img{width: 100%;height: 1.5rem;}
+
+.family_list{width: 100%;display:flex ;flex-wrap: wrap;}
+.family_list_box{width:7.9rem;height:10.85rem;display: inline-block;margin-top: 0.2rem;}
+.family_list_box:nth-child(2n+1){margin-right: 0.2rem;}
+.family_list_box img{width: 100%;height: 7.9rem;}
+.family_list_box_center{width: 100%;height: 1.2rem;line-height: 1.2rem;}
+.family_list_box_center span:first-child{float: right;margin-right: 0.3rem;color: #9D9D9D;}
+.family_list_box_center span:nth-child(2){font-size: 1rem;color: #FF5A67;margin-left: 0.3rem;}
+.family_list_box_center span:nth-child(2) i{font-style: normal;font-size: 0.8rem;}
+.family_list_box_center span:last-child{color: #C4C4C4;text-decoration: line-through;}
+
+.family_addcontent{width: 100%;}
+
+.family_list_box>p{width: 100%;height: 1rem;text-indent: 0.3rem;font-weight:bolder ;color: #9D9D9D;}
+.family_last{width: 100%;height:1.2rem;margin-bottom: 2.5rem;text-align: center;line-height: 1.2rem;color: #C4C4C4;}
+
+.family_gotop{width: 2rem;height: 2rem;border-radius: 50%;background:white url(../img/back-top.png) no-repeat left top;background-size:100% ; position: fixed;bottom:4rem;right:1rem;display: none;}
+

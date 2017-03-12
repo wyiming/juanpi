@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 0.6rem;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.top{
+	height: 2.2rem;
+	border-bottom: 1px solid #e7e7e7;
+	text-align: center;
+	position: relative;
+	line-height: 2.2rem;
+
+}
+.top p{
+	font-size: 1rem;
+}
+.top img{
+	width: 1.375rem;
+	height: 1.375rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+}
+.customer-note{
+	width: 100%;
+	height: 1.75rem;
+	line-height: 1.75rem;
+	background:#fff5e5;
+	color: #f70;
+	text-align: center;
+}
+.temai-cart{
+	height: 1.5rem;
+	width: 100%;
+	padding: 0 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: .5rem;
+}
+.temai-cart p{
+	background-color: #e7e7e7;
+	line-height: 1.5rem; 
+	color: #666;
+}
+.manjian{
+	border:1px solid #ff464e;
+	color:#ff464e;
+	padding: 0.1rem;
+	margin-left: .2rem;
+	margin-right: .5rem; 
+}
+.temai-cart img{
+	float: right;
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-top: 0.45rem;
+	margin-right: 0.5rem;
+}
+.bag-list{
+	width: 100%;
+}
+.bag-list ul li{
+	height: 4.5rem;
+	border-bottom: 1px solid gray;
+}
+.b-left{
+	float: left;
+	width: 4.25rem;
+}
+.b-left img{
+	width: 3.5rem;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}
+.ob-info{
+	width: 11.75rem;
+	float: left;
+}
+.ob-info>div{
+	margin-top: 0.5rem;
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+}
+.quan-go{
+	padding: 0.2rem;
+	border:1px solid #60e;
+	color: #60e;
+	margin-right:0.5rem;
+}
+.quan-price{
+	float: right;
+}
+.ob-second{
+	color: #bbb;
+	font-size: 0.6rem;
+	width: 100%;
+	text-align: right;
+	text-decoration: line-through;
+}
+.ob-third{
+	position: relative;
+	width: 100%;
+}
+.close-x{
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0;
+	color: gray;
+	font-size: 0.7rem;
+	background-color: #f7f7f7;
+	line-height: 1.15rem;
+}
+.minus,.plus{
+	width: 1.15rem;
+	height: 1.15rem;
+	background: #f7f7f7;
+	color: #333;
+	font-size: 0.7rem;
+	text-align: center;
+	line-height: 1.15rem;
+	font-style: normal;
+	display: inline-block;
+}
+.res-num{
+	display: inline-block;
+	width: 2rem;
+	height: 1.15rem;
+	color: #333;
+	text-align: center;
+	line-height: 1.15rem;
+}
+.my-bag-total{
+	line-height: 2.2rem;
+	text-align: right;
+	padding-right: 0.5rem;
+	border-bottom: 1px solid gray;
+}
+.bag-total{
+	position: fixed;
+	height: 4.8rem;
+	text-align: center;
+	width: 16rem;
+	bottom: 0;
+	left: 0;
+}
+.bag-money{
+	height: 2.4rem;
+	font-size: 0.9rem;
+	color: #666;
+	text-align: center;
+	line-height: 2.4rem;
+}
+.t-m{
+	color: #ff464e;
+	
+}
+.j-m{
+	font-size: 0.7rem;
+	color: #9b9b9b;
+}
+.go-pay{
+	height: 2.4rem;
+	line-height: 2.4rem;
+	color: #fff;
+	background-color: #ff464e;
+	font-size: 0.9rem;
+}

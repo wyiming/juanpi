@@ -1,0 +1,623 @@
+*{margin:0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;}
+html,body{width:100%;height:100%;font-size: .7rem;}
+body{
+	background: #f7f7f7;
+	/*overflow:hidden;*/
+}
+
+/*------------------------------------------*/
+#find_swiper{
+	font-size: 0;
+	position: relative;
+}
+/*.swiper-container,.swiper-wrapper,.swiper-slide{
+	width: 100%;
+}*/
+#find_swiper img{
+	width: 100%;
+}
+#find_swiper span{
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	position: absolute;
+	background: red;
+	background: url(../img/back-arrow.png) no-repeat ;
+	background-size: 100%;
+	top:.5rem;
+	left: .5rem;
+	z-index: 10;
+}
+#find_swiper #find_mune_more{
+	background: url(../img/menu_more.png) no-repeat ;
+	background-size: 100%;
+	top:.5rem;
+	left: 14rem;
+}
+
+#find_mune_more_hidden{
+	width: 5rem;
+	height: 4.5rem;
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	z-index: 10;	
+	font-size: .8rem;
+	top:2rem;
+	right: 0;
+	padding: .5rem;
+	display: none;
+}
+#find_mune_more_hidden li{
+	border-bottom: 1px solid white;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	color: white;
+}
+#find_mune_more_hidden li img{
+	width: 1rem;
+	margin-right: .5rem;
+	/*margin-top:.5rem;*/
+	vertical-align: middle;
+}
+#find_mune_more_hidden a{
+	color:white;
+}
+/*#find_swiper #find_num{
+	width: 2rem;
+	height: 1rem;
+	position: absolute;
+	bottom:.5rem;
+	right: .5rem;
+	border-radius: 5px;
+	background: rgba(30,30,30,0.3);
+	z-index: 10;
+	color: white;
+	font-size: .5rem;
+	text-align: center;
+	line-height: 1rem;
+}*/
+.swiper-pagination li{
+	background: #666;
+	width: .5rem;
+	height: .5rem;
+} 
+
+
+
+
+
+
+
+/*--------------------------------------------*/
+#find_more_menu{
+	background: white;
+	box-sizing: border-box;
+	width: 100%;
+	/*height: 10rem;*/
+	border-bottom: 1px solid #ccc;
+	padding: 1rem .5rem 0;
+}
+#find_more_menu h3{
+	font-size: .9rem;
+	color: #333;
+}
+/*#find_price{
+	height: 2rem;
+}*/
+#find_price span:nth-child(1){
+	line-height: 2rem;
+	color: red;
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+#find_price span:nth-child(2){
+	line-height: 2rem;
+	color: #666;
+	font-size: .5rem;
+	margin-left: .5rem;
+}
+#find_price span:nth-child(3){
+	background: #ccc;
+	margin-left: .5rem;
+	font-size: .5rem;
+	color: white;
+	padding: .2rem;
+}
+#find_time{
+	margin-bottom: 1rem;
+}
+#find_time span{
+	display: inline-block;
+	width: .8rem;
+	height: .8rem;
+	background: url(../img/star_time.png);
+	background-size: 100%;
+}
+#find_time p{
+	display: inline-block;
+	margin-left: .3rem;
+	font-size: .6rem;
+	line-height: 1rem;
+}
+
+
+
+
+/*---------------------------------*/
+#find_cuxiao{
+	background: white;
+	padding: 1rem;
+	border-bottom: 1px solid #666;
+}
+#find_cuxiao p{
+	font-size: .6rem;
+}
+#find_cuxiao p span{
+	font-size: .8rem;
+}
+#find_cuxiao div{
+	margin-left: 1.5rem;
+	margin-top:.6rem;
+	font-size: .6rem;
+}
+#find_cuxiao div span{
+	border: 1px solid red;
+	padding: .1rem;
+	color: red;
+	margin-right: .5rem;
+}
+
+
+
+
+
+/*--------------------------------*/
+#find_promise{
+	box-sizing: border-box;
+	padding: 0 .5rem;
+	width: 100%;
+	height: 2rem;
+	background: white;
+	margin-bottom: .5rem;
+}
+#find_promise span{
+	display: inline-block;
+	width: .6rem;
+	height: .6rem;
+	background: url(../img/promise.png);
+	background-size: 100%;
+	margin-right: .2rem;
+}
+#find_promise p{
+	float: left;
+	margin-right: .3rem;
+	height: 2rem;
+	line-height: 2rem;
+}
+/*-----------------------------------*/
+#find_color{
+	width: 100%;
+	clear: both;
+	background: #fff;
+	/*margin-bottom: 3.2rem;*/
+}
+#find_color span{
+	display: block;
+	font-size: .8rem;
+	margin-left: .5rem;
+}
+
+#find_color_box{
+	width: 100%;	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#find_color p{
+	width: 25%;
+	border: 1px solid #4a4a4a;
+	text-align: center;
+	margin-top:.5rem;
+	color: ##4a4a4a;
+	padding: .3rem;
+}
+#find_color p:nth-child(1){
+	background: red;
+	color: #fff;
+}
+
+/*-----------------------------------*/
+#find_promise_title{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	color: red;
+	margin:.5rem 0;
+	text-align: center;
+	background: #fff;
+}
+#find_promise_title span{
+	margin: 0 .5rem;
+}
+
+/*-------------------------------------*/
+
+#find_imgf{
+	width: 100%;
+	height: 8rem;
+	background: url(../img/photo.jpg);
+	background-size: 100%;
+	margin: .5rem 0;
+}
+/*------------------------------------*/
+#find_img_list img{
+	width: 100%;
+}
+
+/*----------------------------------*/
+
+
+
+#find_content{
+	width: 100%;
+	margin-bottom: 3rem;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+#find_content a{
+	color: #666;
+}
+#find_content div:nth-child(1) p{
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+}
+#find_content div:nth-child(2){
+	width: 100%;
+	box-sizing: border-box;
+	padding: .3rem 0;
+	border-bottom: 1px solid #999;
+}
+#find_content div:nth-child(2) span{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	
+}
+#find_content div:nth-child(2) span:nth-child(2){
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+}
+#find_content div:nth-child(3) p{
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #ccc;
+	font-size: .5rem;
+}
+
+/*------------------------------------*/
+#find_bottom{	
+	width: 100%;
+	height:3.2rem;
+	background: white;
+	position: fixed;
+	bottom: 0;
+}
+
+#find_bottom a{
+	color: #666;
+}
+#find_bottom div{
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 6% 0;
+	box-sizing: border-box;
+}
+#find_bottom div:nth-child(3){
+	background: #ff464e;
+	width: 60%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+}
+#find_bottom div:nth-child(2){
+	position: relative;
+}
+#find_bottom div:nth-child(2) span{
+	margin:auto;
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: url(../img/bag-icon-new.png) no-repeat ;
+}
+#find_bottom div:nth-child(1) span{
+	margin: auto;
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: url(../img/collect.png) no-repeat ;
+}
+#find_bottom i{
+	font-style: normal;
+	display: block;
+	width:.7rem;
+	height: .7rem;
+	background: red;
+	border-radius: 50%;
+	color: white;
+	position: absolute;
+	top:.7rem;
+	right: .7rem;
+	display: none;
+	font-size: .5rem;
+	line-height: .7rem;
+	text-align: center;
+}
+/*---------------------------------*/
+#find_return_top{
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	background: white url(../img/back-top.png) no-repeat;
+	background-size: 100%;
+	position: fixed;
+	bottom:6rem;
+	right: 1rem;
+}
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+#find_buy{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+	background: #f7f7f7;
+	top:0;
+	display: none;
+}
+#find_buy_top {
+	position: relative;
+}
+#find_buy_top  p{
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background: white;
+	text-align: center;
+	font-size: 1rem;
+}
+#find_buy_top span{
+	position: absolute;
+	display: block;
+	width: 1.2rem;
+	height: 1.2rem;
+	background: url(../img/btn-back.png) no-repeat;
+	background-size: 100%;
+	left: 1rem;
+	top: .8rem;
+}
+
+
+/*------------------------------*/
+#find_waring p{
+	text-align: center;
+	width: 100%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	color: #f70;
+	background: #fff5e5;
+	font-size: .6rem;
+}
+
+/*----------------------------*/
+#find_zengpin{
+	background: white;
+	width: 100%;
+	height: 3rem;
+	padding: 0.75rem 7%;
+	box-sizing: border-box;
+	
+}
+#find_zengpin p{
+	width: 100%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	background: #f7f7f7;
+}
+#find_zengpin p>span:nth-child(1){
+	border:1px solid red;
+	padding: .1rem;
+	color:red;
+	margin-right: .5rem;
+}
+#find_zengpin a {
+	float: right;
+	margin-right: .5rem;
+	font-weight: bold;
+}
+/*---------------------------------*/
+#find_thingsmore{
+	padding: .5rem;
+	height: 5rem;
+	box-sizing: border-box;
+	background: white;
+	border-bottom: 1px solid #666;
+}
+#find_thingsmore img{
+	width: 4rem;
+	height: 4rem;
+	float: left;
+}
+#find_thingsmore>div{
+	width: 10.5rem;
+	height: 4rem;
+	float: right;
+}
+#find_thingsmore>div div:nth-child(1){
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .8rem;
+}
+#find_thingsmore>div div:nth-child(1) span{
+	float: right;
+	
+}
+#find_thingsmore>div div:nth-child(2) span{
+	color: #ccc;
+}
+#find_thingsmore>div div:nth-child(2){
+	clear: both;
+	height: 1rem;
+	line-height: 1rem;
+}
+#find_thingsmore>div div:nth-child(2) span:nth-child(2){
+	float: right;
+	text-decoration: line-through;
+}
+#find_thingsmore>div div:nth-child(3){
+	clear: both;
+	height: 2rem;
+}
+#find_thingsmore>div div:nth-child(3) span{
+	margin-top:0.8rem;
+	display: inline-block;
+	width: 1.2rem;
+	height: 1.2rem;
+	color: red;
+	background: #f7f7f7;
+	line-height: 1.2rem;
+	text-align: center;
+}
+#find_thingsmore>div div:nth-child(3) span:nth-child(2){
+	width: 2rem;
+	background: #fff;
+	color: #666;
+
+}
+#find_thingsmore>div div:nth-child(3) #find_guanbi{
+	background: white;
+	float: right;
+	font-size: .8rem;
+	
+}
+#find_thingsmore>div div:nth-child(3) #find_guanbi span{
+	background: white;
+	color: #ccc;
+}
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1474629109_9203005.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1474629109_9203005.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1474629109_9203005.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1474629109_9203005.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1474629109_9203005.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+.find_font{
+	font-family: 'iconfont';
+}                  
+/*----------------------------------------------------*/
+#find_thingsmore_jisuan{
+	width: 100%;
+	height: 2rem;
+	line-height:2rem;
+	background: #fff;
+}
+#find_thingsmore_jisuan div{
+	float: right;
+	font-size: .8rem;
+	margin-right: .6rem;
+}
+/*-----------------------------------*/
+#find_youhui{
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	font-size: .8rem;
+}
+#find_youhui a{
+	color: red;
+}
+/*-----------------------------*/
+#find_buys{
+	height: 4.5rem;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+#find_buys div:nth-child(1){
+	height: 2rem;
+	line-height: 2rem;
+	font-size: .9rem;
+	background: #fff;
+}
+#find_buys div:nth-child(1) span{
+	color: red;
+}
+#find_buys div:nth-child(2){
+	height: 2.5rem;
+	line-height: 2.5rem;
+	background: red;
+	font-size: 1rem;
+}
+#find_buys div:nth-child(2) a{
+	color: white;
+}
+
+
+
+
+/*---------------------------------*/
+#find_mengban{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	z-index: 1000;
+	background: rgba(30,30,30,0.3);
+	display: none;
+}
+#find_mengban>div{
+	width: 5rem;
+	height: 5rem;
+	margin: 10rem auto;
+	position: relative;
+}
+#find_mengban img{
+	width: 5rem;
+	height: 5rem;
+	text-align: center;
+}
+#find_clirl{
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	background: url(../img/loading_circle.png);
+	background-size: 100%;
+	top:0;
+	-webkit-animation: rotates 1s linear infinite forwards;
+	animation: rotates 1s linear infinite forwards;
+}
+-webkit-@keyframes rotates{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+@keyframes rotates{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}

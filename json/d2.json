@@ -1,0 +1,357 @@
+{
+"new": {
+"slider": [
+{
+"pic": "//s2.juancdn.com/bao/160921/6/e/57e25a4c151ad1fb038b45f5_750x290.jpg?iopcmd=convert&Q=80&dst=jpg"
+},
+{
+"pic": "//s2.juancdn.com/bao/160922/a/7/57e33877151ad185038b4595_750x290.jpg?iopcmd=convert&Q=80&dst=jpg"
+},
+{
+"pic": "//s2.juancdn.com/bao/160919/5/6/57dfc2b7151ad1511e8b45a7_750x290.jpg?iopcmd=convert&Q=80&dst=jpg"
+},
+{
+"pic": "//s2.juancdn.com/bao/160921/9/7/57e2598b151ad11b048b45c3_750x290.jpg?iopcmd=convert&Q=80&dst=jpg"
+}
+],
+"dpic": [
+{
+"pic": "//s2.juancdn.com/bao/160918/e/3/57de3e43151ad1e14d8b4585_375x456.jpg?iopcmd=convert&Q=88&dst=jpg"
+},
+{
+"pic": "//s2.juancdn.com/bao/160905/3/8/57cd27e5151ad1637e8b45ab_375x228.jpg?iopcmd=convert&Q=88&dst=jpg"
+},
+{
+"pic": "//s2.juancdn.com/bao/160912/9/a/57d614b9151ad1b02e8b4597_375x228.jpg?iopcmd=convert&Q=88&dst=jpg"
+}
+],
+"dnew": [
+{
+"pic": "//s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg"
+}
+],
+"list": [
+{
+"pic": "http://s2.juancdn.com/bao/160919/d/6/57dfbe62151ad192038b45ec_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新",
+"detail":{
+		"class":"满2件减10元，满3件减18元",
+		"toppic":"//s1.juancdn.com/bao/160920/2/a/57e0e468151ad12a588b45a2_680x280.jpg",
+		"list":[
+					{
+						"old":"238",
+						"new":"59",
+						"name":"优雅淑女镂空连衣裙",
+						"pic":"//s2.juancdn.com/bao/160829/4/b/57c3945a151ad14a6a8b458f_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"223",
+						"new":"39.9",
+						"name":"优雅不规则风衣外套",
+						"pic":"//s2.juancdn.com/bao/160912/2/2/57d65da5151ad1ef768b45ec_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"258",
+						"new":"79",
+						"name":"气质鹿皮绒两件套",
+						"pic":"//s2.juancdn.com/bao/160912/6/3/57d65e48151ad13a728b4616_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"258",
+						"new":"79",
+						"name":"时尚针织衫高腰裙套装",
+						"pic":"//s2.juancdn.com/bao/160920/0/5/57e082fb151ad1f8188b4591_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"236",
+						"new":"49.9",
+						"name":"毛妮拼接针织衫连衣裙",
+						"pic":"//s2.juancdn.com/bao/160829/7/b/57c394bf151ad1fb468b45f5_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"230",
+						"new":"49",
+						"name":"小清新立领系带雪纺衫",
+						"pic":"//s2.juancdn.com/bao/160908/4/1/57d0e094151ad161798b45ec_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"230",
+						"new":"49.9",
+						"name":"名媛通勤时尚两件套",
+						"pic":"//s2.juancdn.com/bao/160827/6/e/57c11c59151ad1e1628b45f4_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"260",
+						"new":"39.9",
+						"name":"小香风格子连衣裙",
+						"pic":"//s2.juancdn.com/bao/160920/5/1/57e082f8151ad19d198b4590_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"242",
+						"new":"69",
+						"name":"轻熟气质收腰连衣裙",
+						"pic":"//s2.juancdn.com/bao/160922/b/7/57e34860151ad1d82d8b45be_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"246",
+						"new":"59",
+						"name":"名媛蕾丝印花连衣裙",
+						"pic":"//s2.juancdn.com/bao/160920/d/4/57e082ae151ad1db1d8b4597_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"249",
+						"new":"59",
+						"name":"名媛收腰够花连衣裙",
+						"pic":"//s2.juancdn.com/bao/160915/f/4/57d98e90151ad1bc6d8b457e_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					},
+					{
+						"old":"365",
+						"new":"89",
+						"name":"韩范系带鹿皮绒外套",
+						"pic":"//s2.juancdn.com/bao/160920/e/0/57e082a7151ad1ff1a8b4586_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+						"class":"上新"
+					}
+				]
+}
+},
+{
+"pic": "http://s2.juancdn.com/bao/160923/2/c/57e47906151ad1a7358b458f_310x310.jpg?iopcmd=convert&Q=88&dst=jpg",
+"name": "居家热销TOP榜",
+"title": "满2件减5元",
+"class": "剩1天"
+},
+{
+"pic": "http://s2.juancdn.com/bao/160922/3/a/57e394db151ad1450c8b45ed_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "AOOTAO品牌女鞋专场",
+"title": "满69元减10元",
+"class": "上新"
+},
+{
+"pic": "http://s2.juancdn.com/bao/160920/1/4/57e0a6e0151ad1c5258b45b5_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "依妙品牌专场",
+"title": "满2件减5元",
+"class": "上新"
+},
+{
+"pic": "http://s2.juancdn.com/bao/160825/8/a/57be475a151ad15f7d8b4578_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "森林狼·图腾金秋潮男专场",
+"title": "满2件减10元",
+"class": "上新"
+},
+{
+"pic": "http://s2.juancdn.com/bao/160921/8/8/57e1e807151ad164468b4570_310x310.jpg?iopcmd=convert&Q=88&dst=jpg",
+"name": "吃货小心机专场",
+"title": "满2件减5元",
+"class": "剩1天"
+},
+{
+"pic": "http://s2.juancdn.com/bao/160919/f/8/57df9c57151ad18f368b456d_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "珀莱雅海洋护肤专场",
+"title": "满100元减10元",
+"class": "上新"
+},
+{
+"pic": "http://s2.juancdn.com/bao/160923/b/8/57e4795b151ad151338b457e_310x310.jpg?iopcmd=convert&Q=88&dst=jpg",
+"name": "丹柏瑞品牌童装专场",
+"title": "满2件减12元",
+"class": "上新"
+},
+{
+"pic": "http://s2.juancdn.com/bao/160810/d/0/57aaea39151ad11e258b45db_310x310.jpg?iopcmd=convert&Q=88&dst=jpg",
+"name": "天天一口价",
+"title": "任选2件低至15元",
+"class": "剩14天"
+},
+{
+"pic": "//s2.juancdn.com/bao/160822/b/e/57baa5df151ad18a2c8b45dc_200x220.jpg?iopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160822/f/b/57baa615151ad1d12b8b4610_200x220.png?iopcmd=convert&Q=88&dst=png",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160822/5/c/57baa62b151ad10a408b457f_200x220.png?iopcmd=convert&Q=88&dst=png",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160822/b/0/57baa646151ad1d33f8b457b_200x220.png?iopcmd=convert&Q=88&dst=png",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160822/d/5/57baa6e0151ad1ca3f8b4587_200x220.png?iopcmd=convert&Q=88&dst=png",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160822/c/7/57baa70e151ad13d3e8b4591_200x220.png?iopcmd=convert&Q=88&dst=png",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160822/3/a/57baa722151ad1923e8b45a2_200x220.png?iopcmd=convert&Q=88&dst=png",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160606/5/f/5755242e151ad161638b4587_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160810/0/8/57aaebd7151ad1441f8b462d_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160606/8/d/575521d3151ad1e34c8b4603_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160804/e/6/57a2c170151ad142188b45b0_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160805/0/5/57a45069151ad171098b457a_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+},
+{
+"pic": "//s2.juancdn.com/bao/160809/2/2/57a96884151ad1bb498b45fe_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg",
+"name": "怡情黛女专场",
+"title": "满2件减6元",
+"class": "上新"
+}
+]
+},
+"woman": {
+			"slider":[
+						{
+							"pic": "//s2.juancdn.com/bao/160606/8/d/575521d3151ad1e34c8b4603_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+						},
+						{
+							"pic": "//s2.juancdn.com/bao/160804/e/6/57a2c170151ad142188b45b0_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+						},
+						{
+							"pic": "//s2.juancdn.com/bao/160805/0/5/57a45069151ad171098b457a_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+						},
+						{
+							"pic": "//s2.juancdn.com/bao/160809/2/2/57a96884151ad1bb498b45fe_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+						}
+					],
+			"dpic":[
+						{
+							"pic":"//s2.juancdn.com/bao/160810/0/8/57aaebd7151ad1441f8b462d_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+						},
+						{
+							"pic": "//s2.juancdn.com/bao/160606/5/f/5755242e151ad161638b4587_800x800.jpg?iopcmd=thumbnail&type=8&width=310&height=310%7Ciopcmd=convert&Q=88&dst=jpg"
+						},
+						{
+							"pic": "//s2.juancdn.com/bao/160822/c/7/57baa70e151ad13d3e8b4591_200x220.png?iopcmd=convert&Q=88&dst=png"
+						}
+					],
+			"dnew":[
+						{
+							"pic": "//s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg"
+						}
+					],
+			"list":[
+
+					]
+		},
+"shoot": {
+			"slider":[
+
+					],
+			"dpic":[
+
+					],
+			"dnew":[
+						{
+							"pic": "//s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg"
+						}
+					],
+			"list":[
+
+					]
+		},
+"mouth": {
+			"slider":[
+
+					],
+			"dpic":[
+
+					],
+			"dnew":[
+						{
+							"pic": "//s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg"
+						}
+					],
+			"list":[
+
+					]
+		},
+"number": {
+			"slider":[
+
+					],
+			"dpic":[
+
+					],
+			"dnew":[
+						{
+							"pic": "//s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg"
+						}	
+					],
+			"list":[
+
+					]
+		},
+"man": {
+			"slider":[
+
+					],
+			"dpic":[
+
+					],
+			"dnew":[
+						{
+							"pic": "//s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg"
+						}
+					],
+			"list":[
+
+					]
+		}
+}

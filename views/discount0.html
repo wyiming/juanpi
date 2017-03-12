@@ -1,0 +1,71 @@
+<!-- 下载提示  -->
+<div class='dtop-top'>
+    <img ng-src="img/go_load_new.png">
+    <span></span>
+</div>
+<!-- footer卷皮 -->
+<div class="djuan">
+	<img src="img/top-logo.png">
+	<a href="views/find.html"></a>
+</div>
+<div class="bnav">
+	<ul>
+		<li><a href="#/">上新</a></li>
+		<li><a href="#/dwoman">女装</a></li>
+		<li><a href="#/dshoots">鞋包</a></li>
+		<li><a href="#/dmouth">母婴</a></li>
+		<li><a href="#/dnumber">居家数码</a></li>
+		<li><a href="#/dman">男士</a></li>
+		<li><a href="#/dbeauty">美妆</a></li>
+		<li><a href="#/dfood">美食</a></li>
+	</ul>
+</div>
+<div class="dcontainer">
+		<div class="dslider">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat="x in dswiper"><img ng-src="{{x.pic}}"></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<div class="dlogo">
+		<div>
+			<p class="dlogo-img"><img ng-src="img/d1.png" alt=""></p>
+			<p class="dlogo-p">最后疯抢</p>
+		</div>
+		<div>
+			<p class="dlogo-img"align=""><img ng-src="img/d2.png" alt=""></p>
+			<p class="dlogo-p">9.9包邮</p>
+		</div>
+		<div>
+			<p class="dlogo-img"><img ng-src="img/d3.png" alt=""></p>
+			<p class="dlogo-p"align="">拼团</p>
+		</div>
+		<div>
+			<p class="dlogo-img"><img ng-src="img/d4.png" alt=""></p>
+			<p class="dlogo-p">即将上线</p>
+		</div>	
+	</div>
+	<div class="dpic" >
+		<img  ng-repeat="x in dpic1" ng-src="{{x.pic}}">
+	</div>
+	<div class="dnew">
+		<img ng-src="{{dpic2}}" >
+	</div>
+	<div class="ddlist">
+		<div class="ddlist-div" ng-repeat="x in dlist" ng-click="clickData(x.detail)">
+			<img ng-src="{{x.pic}}" class="ddlist-img-1">
+			<div class="ddlist-div-mid">
+				<p class="ddlist-mid-p1">{{x.title}}</p>
+				<p class="ddlist-mid-p2">{{x.class}}</p>
+			</div>
+			<div class="ddlist-div-bot">
+				<p class="ddlist-bot-p">{{x.name}}</p>
+				<img src="img/icon-brand.png" class="ddlist-img-2">
+			</div>
+		</div>
+	</div>	
+</div>
+<div class="dbottom"></div>
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title></title>
+	<script type="text/javascript" src="../lib/angular.mini.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.1.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/gogoodscar.css">
+</head>
+<body>
+	<div class="top">
+		<p><span><img src="../icon/arrow_black.png" onclick="javascript:history.back(-1)"></span>购物车</p>
+	</div>
+	<div class="customer-note">
+		<p>请在<i></i>内完成付款，超时订单将自动取消</p>
+	</div>
+	<div class="temai-cart">
+		<p><span class="manjian">满件减</span><span>再凑一件，可减5元</span><span><img src="../icon/details.png"></span></p>
+	</div>
+	<div class="bag-list">
+		<ul>
+			<li>
+				<div class="b-left">
+					<img src="../icon/57ad8d19151ad14d128b45fc_800x800.jpg">
+				</div>
+				<div class="ob-info">
+					<div class="ob-first">
+						<p><span class="quan-go">全球购</span><span class="quan-desc">世界咖啡组...</span><span class="quan-price" ng-model>￥19.90</span></p>
+					</div>
+					<div class="ob-second">
+						<span>￥40.80</span>
+					</div>
+					<div class="ob-third">
+						<p><i class="minus">-</i><span class="res-num">0</span><i class="plus">+</i></p>
+						<span class="close-x">取消</span>
+					</div>
+				</div>
+						
+			</li>
+		</ul>
+		<div class="my-bag-total">
+			<span>720</span>- <span>0</span>= <span>￥720.00</span>
+		</div>
+	</div>
+	<div class="bag-total">
+		<div class="bag-money">
+			总金额<span class="t-m">720.00</span><span class="j-m">(已省￥593)</span>
+		</div>
+		<a href="../index.html#mine">
+			<div class="go-pay">
+				<span>去结算</span>
+			</div>
+		</a>
+	</div>
+</body>
+<script type="text/javascript" src="../js/controller/gogoodscar.js"></script>
+</html>

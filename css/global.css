@@ -1,0 +1,31 @@
+.family_box{width:100%;height: 100%;overflow: hidden;overflow: auto;font-family: "微软雅黑","microsoft yahei";}
+.family_box_header{width: 100%;height: 2.2rem;line-height: 2.2rem;border: ; text-align: center;position: relative;font-size: 0.9rem;}
+.family_box_header a{display:inline-block;width:1.2rem;height: 1.2rem;background: url(../img/btn-sign.png) no-repeat left center;background-size: 100%;position: absolute;right: 0.6rem;top:0.6rem;}
+.globalBuy{padding-bottom: 3.5rem;}
+#global_banner{color:red;width:16rem;position: relative;height:7.5rem;font-size:0;}
+#global_banner .swiper-wrapper{width:48rem;position: absolute;left:0;top:0;}
+#global_banner .swiper-wrapper .swiper-slide{width: 16rem;}
+#global_banner .swiper-wrapper img{width:16rem;height:7.5rem;float: left;}
+#global_banner .swiper-pagination-bullet{width: 0.25rem;height:0.25rem;background: white;border-radius: 50%;margin-left:0.2rem;}
+.global_ad ul{display: flex;width:16rem;height:5rem;}
+.global_ad ul li{flex: auto;align-self: center;}
+.global_ad ul li img{width: 100%;}
+.global_list{width:16rem;}
+.global_list .bigImg{width:16rem;height:9.5rem;background: #e7e7e7; }
+.global_list .bigImg img{width: 100%;height:9.1rem;margin-top:0.4rem; }
+.global_list .showList{overflow: scroll;}
+.global_list .show{width:40rem;display: flex;margin-top:0.3rem;}
+.global_list .show li{width:4.8rem;height:9rem;margin-right:0.3rem;}
+.global_list .show li img{width:100%;display: block;}
+.global_list .show li p{font-size: 0.7rem;color:#474747;text-align: center;margin-top:0.8rem;transform:scale(0.9);}
+.global_list .show li p:last-child{margin-top: 0;}
+.global_list .show li p span:first-child{color:blue;font-size: 0.8rem;}
+.global_list .show li p span:last-child{text-decoration: line-through;}
+.brand_pic{width:16rem;}
+.brand_pic img{width:100%;}
+.new_price{height:2rem;}
+.new_price img{width: 1.2rem;margin-left:0.8rem;vertical-align: middle}
+.new_price p{display: inline-block;line-height: 2rem;}
+.new_price p span:first-child{color:blue;}
+.new_price p span:nth-child(2){color:#474747;margin:0 1.2rem 0 0.5rem;}
+.new_price p span:nth-child(3){color:#989898;/*font-size: 0.5rem;*/}

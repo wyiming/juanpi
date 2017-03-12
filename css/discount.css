@@ -1,0 +1,200 @@
+.index_view{
+	background-color: #f7f7f7;
+}
+.dtop-top{
+	width: 100%;
+	height: 2.4rem;
+	
+}
+.dtop-top img{
+	width: 100%;
+	height: 100%;
+}
+.dtop-top span{
+	position: absolute;
+	font-size: .8rem;
+	top: 0;
+	display: block;
+	width: 1.3rem;
+	height: 2.4rem;
+	line-height: 2.4rem;
+	text-align: center;
+}
+.djuan{
+	position: relative;
+	height: 2.4rem;
+	width: 100%;
+	background: white url('../img/btn-sign.png') no-repeat 14.3rem center;
+	background-size: 1.2rem;
+	padding: 0.1px;
+	border-bottom: 1px solid #ccc;
+}
+.djuan a{
+	width: 1.2rem;
+	height: 1.2rem;
+	display: block;
+	
+	position: absolute;
+	right: .35rem;
+	top: .5rem;
+}
+.djuan img{
+	display: block;
+	width: 2.5rem;
+	/* height: 2rem; */
+	margin: .5rem auto;
+}
+.bnav{
+	width: 100%;
+	height: 1.8rem;
+	overflow-x: scroll;
+	background: white
+
+}
+.bnav ul{
+	width: 160%;
+	height: 1.8rem;
+	line-height: 1.8rem;
+}
+.bnav li{
+	padding: 0 .78rem;
+	float: left;
+	text-align: center;
+	color: #4A4A4A;
+	border-bottom: 1px solid transparent;
+
+}
+.bnav a{
+	display: block;
+	color: #666;
+}
+.dcontainer{
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.swiper-container {
+    width: 100%;
+    height: 7rem;
+    font-size: 0;
+} 
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+.dlogo{
+	width: 100%;
+	height: 3.4rem;
+	background: white;
+	margin-bottom: .3rem;
+}
+.dlogo div{
+	width: 25%;
+	height: 3.4rem;
+	float: left;
+}
+.dlogo-img{
+	width: 2rem;
+	height: 2rem;
+	margin: 0 auto;
+}
+.dlogo-img img{
+	width: 100%;
+	margin: .2rem auto .3rem;
+}
+.dlogo-p{
+	color: #666;
+	font-size: .4rem;
+	text-align: center;
+	margin-top: .3rem;
+}
+
+.dpic{
+	width: 100%;
+	height: 9.7rem;
+}
+.dpic img:first-child{
+	float: left;
+	height: 100%;
+	width: 50%;
+}
+
+.dpic img:nth-child(2),.dpic img:nth-child(3){
+	float: left;
+	height: 50%;
+	width: 50%;
+}
+.dnew{
+	width: 100%;
+	height: 2rem;
+}
+.dnew img{
+	width: 100%;
+	height: 100%;
+}
+.ddlist{
+	width: 100%;
+}
+.ddlist-div{
+	width: 49%;
+	height: 10.5rem;
+	float: left;
+}
+.ddlist-img-1{
+	width: 100%;
+	height: 7.5rem;
+}
+.ddlist-div:nth-child(2n){
+	margin-left: .2rem 
+}
+.ddlist-div-mid{
+	width: 100%;
+	margin-top: .25rem;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .7rem;
+}
+.ddlist-div-bot{
+	width: 100%;
+	margin-bottom: .25rem;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .4rem;
+	color: #666;
+}
+.ddlist-mid-p1{
+	color: red;
+	float: left;
+	text-indent: .3rem;
+	width: 5.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ddlist-mid-p2{
+	color: #ccc;
+	float: right;
+	font-size: .25rem;
+	margin-right: .3rem;
+
+}
+.ddlist-bot-p{
+	float: left;
+	text-indent: .3rem;
+	width: 5.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.ddlist-img-2{
+	width: .6rem;
+	float: right;
+	margin-right: .3rem;
+	margin-top: .3rem;
+}
+
+
+.dbottom{
+	width: 100%;height:2.5rem;
+}
+
+

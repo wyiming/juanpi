@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>卷皮折扣</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+    <script src="lib/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+	<script src="lib/angular-css.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="lib/swiper-3.3.1.jquery.min.js"></script>
+</head>
+<body ng-app='myApp'>
+	<div ng-view class="index_view"></div>
+	<ul id="index_footer">
+	    <li>    	
+	    	<a href="#/">
+	    		<span class="iconfont">&#xe604;</span>
+	    		今日折扣
+	    	</a>
+	    </li>
+	    <li>    	
+	    	<a href="#/family">
+	    		<span class="iconfont">&#xe605;</span>
+	    		居家馆
+	    	</a>
+	    </li>
+	    <li>	    	
+	    	<a href="#/global">
+	    		<span class="iconfont">&#xe607;</span>
+	    		全球购
+	    	</a>
+	    </li>
+	    <li>    	
+	    	<a href="#/car">
+	    		<span class="iconfont">&#xe606;</span>
+	    		购物车
+	    	</a>
+	    </li>
+	    <li>    	
+	    	<a href="#/mine">
+	    		<span class="iconfont">&#xe602;</span>
+	    		我的卷皮
+	    	</a>
+	    </li>
+	</ul>	
+</body>
+<script src="app.js"></script>
+<script src="js/controller/discountCtrl.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/controller/familyCtrl.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/controller/globalCtrl.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/controller/carCtrl.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/controller/mineCtrl.js" type="text/javascript" charset="utf-8"></script>
+</html>

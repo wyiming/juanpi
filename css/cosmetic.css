@@ -1,0 +1,33 @@
+*{margin:0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+img{border:none;}
+html,body{width:100%;height:100%;font-size: .7rem;font-family: "微软雅黑";}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1474621779_3577456.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1474621779_3577456.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1474621779_3577456.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1474621779_3577456.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1474621779_3577456.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.fontStyle{font-family: 'iconfont';}
+.cosmetic_title{width:16rem;height:2.2rem;line-height: 2.2rem;color:#474747;}
+.cosmetic_title a{margin-left: 1rem;font-size: 1.3rem;color:#6c6c6c;}
+.cosmetic_title span{font-size: 1rem;font-weight: bold;margin-left:4rem;}
+.cosmetic_goods{width:16rem;background: #f9f9f9;padding: 0.1px;}
+.cosmetic_goods ul{display: flex;width:100%;flex-wrap: wrap;justify-content: space-between;}
+.cosmetic_goods ul li{width:7.9rem;background: white;margin-top: 0.2rem;}
+.cosmetic_goods ul li img{width: 100%;}
+.cosmetic_goods ul li p{width:100%;font-size:0.7rem;transform: scale(0.7);}
+.cosmetic_goods ul li p:last-child{margin-left:-0.7rem;color:#6b6b6b;}
+.cosmetic_goods ul li p span:first-child{color:#8d61da;font-size: 1rem;margin-left:-1.2rem;font-weight: bold;}
+.cosmetic_goods ul li p span:nth-child(2){color:#bebebe;font-size: 0.7rem;margin-left:0.5rem;text-decoration: line-through;}
+.cosmetic_goods ul li p span:nth-child(3){color:#bebebe;font-size: 0.5rem;margin-left:1.6rem;}
+.cosmetic_goods .hint{width:16rem;text-align: center;color:#6b6b6b;margin:0.5rem 0 2rem 0;font-size: 0.6rem;}
+footer{padding: 0 0.5rem;}
+footer ul{width:15rem;display: flex;border-bottom: 1px solid #f3f3f3;padding: 0.5rem 0;}
+footer ul li{flex:auto;text-align: center;font-size: 0.5rem;border-right:1px solid #f3f3f3;color:#6a6a6a;}
+footer ul li:last-child{border:none;}
+footer p{width:15rem;text-align: center;margin:0.5rem 0 2rem 0;transform: scale(0.7);color:#bebebe;}
+#backTop{position: fixed;bottom: 2rem;right:1rem;font-size: 2rem;width:2rem;height:2rem;background: white;border-radius:50%;display: none;}

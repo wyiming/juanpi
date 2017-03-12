@@ -1,0 +1,119 @@
+{
+    "code": 1000,
+    "data": {
+        "banner_ads": [
+            {
+                "pic": "//s2.juancdn.com/bao/160921/3/7/57e20bd6151ad17a238b45ba_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "http://m.juanpi.com/brand/1224524?shop_id=1920857",
+                "id": "2576",
+                "size": "750*290"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/160921/7/5/57e1ed9f151ad1a4538b4579_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "http://m.juanpi.com/brand/1746575?shop_id=1529708",
+                "id": "2564",
+                "size": "750*290"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/160921/a/b/57e271d7151ad1784c8b45a5_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "http://m.juanpi.com/brand/1736530?shop_id=1598727",
+                "id": "2584",
+                "size": "750*290"
+            }
+        ],
+        "module_ads": {
+            "block_id": "229",
+            "multi_block": [
+                {
+                    "show_type": 1,
+                    "block_type": 6,
+                    "split_line": "0",
+                    "margin_enabled": 0,
+                    "data": [
+                        {
+                            "width": 1,
+                            "triangle": 0,
+                            "height": 0.275,
+                            "child": [
+                                {
+                                    "pic": "//s2.juancdn.com/bao/160906/3/2/57ce967f151ad150098b45a9_200x220.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/cate/399",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2467",
+                                    "x_record": "1_1",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2467::1_1\",\"cid\":\"\",\"_t\":1474517226}"
+                                },
+                                {
+                                    "pic": "//s2.juancdn.com/bao/160906/6/c/57ce96b0151ad1027b8b4606_200x220.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/cate/400",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2468",
+                                    "x_record": "1_2",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2468::1_2\",\"cid\":\"\",\"_t\":1474517226}"
+                                },
+                                {
+                                    "pic": "//s2.juancdn.com/bao/160906/c/4/57ce96db151ad1527b8b461b_200x220.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/cate/402",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2469",
+                                    "x_record": "1_3",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2469::1_3\",\"cid\":\"\",\"_t\":1474517226}"
+                                },
+                                {
+                                    "pic": "//s2.juancdn.com/bao/160906/7/b/57ce9701151ad1467b8b462c_200x220.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/cate/401",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2470",
+                                    "x_record": "1_4",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2470::1_4\",\"cid\":\"\",\"_t\":1474517226}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "block_background_color": "",
+            "block_background_image": ""
+        }
+    }
+}

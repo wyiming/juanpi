@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/coffee.css">
+	<script type="text/javascript" src="../lib/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="../lib/angular.mini.js"></script>
+	<script type="text/javascript" src="../lib/angular-route.js"></script>
+	<script type="text/javascript" src="../lib/angular-css.min.js"></script>
+
+<!-- 	<script type="text/javascript" src="../lib/baiduTemplate.js"></script> -->
+	
+</head>
+<body>
+	<div class="go-app-new">
+	<img src="../img/go_load_new.png">
+		<i class="close"></i>
+	</div>
+	<div class="top">
+		<p>越南咖啡专场</p>
+		<a href="javascript:history.back(-1)" ><img src="../icon/arrow_black.png" class="btn-back"></a>
+		<a href=""><img src="../icon/menu_more_brand.png" class="btn-menu"></a>
+	</div>
+	<div class="bar">
+		<img src="../img/57d799aa151ad1b8668b462e_680x280.jpg">
+		<div class="brand-collect">
+			<img src="../icon/collect.png">
+			<span>收藏</span>
+		</div>
+	</div>
+	<div class="global-title">
+		<img src="../icon/4.gif">
+		越南制裁，国内中转仓直发
+	</div>
+	<div class="global-desc">
+		<p>越南西贡咖啡以卓越的品质、香滑的口感、醇厚的味道博得了广大消费者的喜爱；致力于积极推广咖啡文化，提高消费者饮用咖啡的品位和档次。</p>                                        
+	</div>
+	<div class="activityinfo">
+		<span>满件减</span>满2件减5元，满3件减10元
+	</div>
+	<div class="brand-sort">
+		<ul>
+			<li><a href="">综合</a></li>
+			<li class="price-desc"><a href="">价格</a><img src="../icon/sort_default.png"></li>
+			<li><a href="" class="sales">销量</a></li>
+			<li id="stock-active"><a href="">仅看有货</a><img src="../icon/sort_not_select.png"></li>
+		</ul>
+	</div>
+	<div class="">
+		
+	</div>
+	<div ng-controller="myCtrl">
+		<div class="goods-list">
+			<ul>
+			<li ng-repeat="x in data">
+					<img ng-src="{{x.picurl}}">
+					<div class="list-desc">
+						<p class="price-desc"><span>￥{{x.cprice}}</span><span>￥{{x.oprice}}</span><span>上新</span></p>
+						<p class="cof-desc"><span>全球购</span> | <span>{{x.title}}</span></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="#">返回首页</a><a href="">客户端</a><a href="">电脑版</a>
+		<p>copyright&copy;武汉奇米网络科技有限公司</p>
+	</div>
+	<div class="back-top">
+		<img src="../icon/back-top.png">
+	</div>
+	<div class="short-cut">
+		<img src="../icon/bag_shortcut_new.png">
+	</div>
+</body>
+	
+	<script type="text/javascript" src="../js/controller/coffee.js"></script>
+	<script type="text/javascript">
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+		window.onresize = function(){
+		document.documentElement.style.fontSize = innerWidth/16 + 'px';
+		}
+	</script>
+</html>

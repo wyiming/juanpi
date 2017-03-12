@@ -1,0 +1,70 @@
+<div id="family_box">
+	<div class="family_box_header">
+		<a href="views/find.html"></a>
+		居家馆		
+	</div>
+	<div class="family_box_nav">
+		<ul>
+			<li>
+				<a href="javascript:void(0)">精选</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">百货</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">厨房</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">清洁</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">卫浴</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">收纳</a>
+			</li>
+		</ul>	
+	</div>
+	<div class="family_content">	
+		<div class="family_banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper" >		
+					<div class="swiper-slide" ng-repeat="x in family_data">
+						<img ng-src="{{x.pic}}">
+					</div>		
+				</div>		
+			　　<!-- 如果需要分页器 -->		
+			　　<div class="swiper-pagination"></div>				　	
+			</div>
+		</div>
+		<div class="family_banner2">
+			<div class="family_banner2_left">
+				<a href="{{family_banner2_left.url}}"><img ng-src="{{family_banner2_left.pic}}"/></a>
+			</div>
+			<div class="family_banner2_right">
+				<a href="{{family_banner2_right1.url}}"><img ng-src="{{family_banner2_right1.pic}}" id="asd"/></a>
+				<a href="{{family_banner2_right2.url}}"><img ng-src="{{family_banner2_right2.pic}}"/></a>
+			</div>	
+		</div>
+		<div class="family_banner3">
+			<a href="{{family_banner3.url}}"><img ng-src="{{family_banner3.pic}}"/></a>
+		</div>
+		<div class="family_banner4">
+			<img ng-src="{{family_banner4.pic}}"/>
+		</div>
+		<div class="family_list">
+			<div class="family_list_box" ng-repeat="x in family_list">
+				<a href="{{x.share_url}}"><img ng-src="{{x.pic_url}}"/></a>
+				<div class="family_list_box_center">
+					<span>{{x.time_left}}</span>
+					<span><i>¥</i>{{x.cprice}}</span>
+					<span>¥{{x.oprice}}</span>
+				</div>
+				<p>{{x.title}}</p>
+			</div>
+		</div>
+	</div>
+	<div class="family_addcontent"></div>
+	<p class="family_last">亲！已经到底了！！！！</p>
+	<div class="family_gotop"></div>	
+</div>
